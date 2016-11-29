@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <EditText
+        android:id="@+id/edt_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/middle_margin_bottom"
+        android:hint="test"
+        android:inputType="number"
+        android:layout_marginTop="21dp"
+        android:textColorHint="@color/color_dbdbdb"
+        android:textSize="@dimen/common_text_size5"/>
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:background="@color/red"
+        android:layout_alignTop="@+id/edt_content"
+        android:layout_alignLeft="@+id/edt_content"
+        android:layout_alignStart="@+id/edt_content">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/common_text_size5"
+        android:text=""
+        android:layout_alignTop="@+id/edt_content"
+        android:layout_alignLeft="@+id/edt_content"
+        android:layout_alignStart="@+id/edt_content"/>
+
+</RelativeLayout>

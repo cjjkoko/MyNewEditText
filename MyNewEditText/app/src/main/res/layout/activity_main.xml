@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cjj="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.admin.mynewedittext.MainActivity">
+    <com.example.admin.mynewedittext.MyNewEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        cjj:hintText="还不错还可以"
+        cjj:hintBackGround="@drawable/shape_edittext"
+        cjj:paddingLeft ="@dimen/big_margin_top"
+        cjj:paddingTop ="@dimen/middle_margin_top"
+        cjj:paddingBotton="@dimen/middle_margin_bottom"
+        cjj:hintLinColor="@color/white"
+        android:layout_marginTop="100dp">
+    </com.example.admin.mynewedittext.MyNewEditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
